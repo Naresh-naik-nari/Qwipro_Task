@@ -1,0 +1,110 @@
+.card-profile-stats img{
+    max-width: 86px;
+    border-radius: 50%;
+    border: 1px solid #111;
+}
+
+.profile-img {
+    max-width: 120px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-info p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.profile-info i {
+    width: 20px;
+    color: #6c757d;
+}
+
+.email{
+    color: rgb(238,101,122);
+}
+
+.location{
+    color: blue;
+}
+
+.calendar{
+    color: rebeccapurple;
+}
+
+.address-details p {
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.address-details strong {
+    color: #495057;
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-content .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-content .card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-img {
+        max-width: 100px;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 1rem;
+    }
+    
+    .address-details p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-profile-stats img {
+        max-width: 70px;
+    }
+    
+    .profile-img {
+        max-width: 80px;
+    }
+    
+    .profile-info p {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,212 @@
+.profile_div img{
+    max-width: 56px;
+    border-radius: 50%;
+    border: 1px solid #111;
+}
+
+/* Responsive Design for Registration Form */
+@media (max-width: 768px) {
+    .container {
+        padding: 0.5rem;
+    }
+    
+    .card {
+        margin: 0.5rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .row > [class*="col-"] {
+        margin-bottom: 1rem;
+    }
+    
+    .form-control, .form-select {
+        font-size: 0.9rem;
+    }
+    
+    .form-label {
+        font-size: 0.9rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0.25rem;
+    }
+    
+    .card {
+        margin: 0.25rem;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .card-body {
+        padding: 0.75rem;
+    }
+    
+    .profile_div img {
+        max-width: 48px;
+    }
+    
+    .form-control, .form-select {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+    
+    .form-label {
+        font-size: 0.8rem;
+    }
+    
+    .btn {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .btn-lg {
+        font-size: 0.9rem;
+        padding: 0.75rem 1rem;
+    }
+    
+    .text-center .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .text-center .btn:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Address Card Responsive */
+@media (max-width: 768px) {
+    .address-card {
+        margin-bottom: 1rem;
+    }
+    
+    .address-card .card-header {
+        padding: 0.75rem;
+        font-size: 0.9rem;
+    }
+    
+    .address-card .card-body {
+        padding: 0.75rem;
+    }
+    
+    .address-card .btn {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .address-card .card-header {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    
+    .address-card .card-header .d-flex {
+        justify-content: center;
+    }
+    
+    .address-card .btn-group {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .address-card .btn-group .btn {
+        margin-bottom: 0.25rem;
+        border-radius: 0.25rem !important;
+    }
+}
+
+/* Form Validation Responsive */
+@media (max-width: 576px) {
+    .form-control.is-invalid {
+        font-size: 0.8rem;
+    }
+    
+    .form-control-feedback {
+        font-size: 0.7rem;
+    }
+    
+    .text-danger.small {
+        font-size: 0.7rem;
+    }
+}
+
+/* Select Component Responsive */
+@media (max-width: 768px) {
+    .react-select__control {
+        font-size: 0.9rem;
+    }
+    
+    .react-select__menu {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .react-select__control {
+        font-size: 0.8rem;
+        min-height: 38px;
+    }
+    
+    .react-select__menu {
+        font-size: 0.8rem;
+    }
+}
+
+/* Modal Responsive */
+@media (max-width: 768px) {
+    .modal-content {
+        margin: 1rem;
+        max-height: 90vh;
+    }
+    
+    .modal-body {
+        padding: 1rem;
+    }
+    
+    .modal-footer {
+        padding: 0.75rem 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-content {
+        margin: 0.5rem;
+        border-radius: 0.25rem;
+    }
+    
+    .modal-header {
+        padding: 0.75rem;
+    }
+    
+    .modal-body {
+        padding: 0.75rem;
+    }
+    
+    .modal-footer {
+        padding: 0.5rem 0.75rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .modal-footer .btn {
+        width: 100%;
+    }
+}
