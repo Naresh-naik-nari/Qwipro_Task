@@ -75,20 +75,6 @@ A comprehensive full-stack customer management system with advanced CRUD operati
    npm install
    ```
 
-3. **Create environment file**
-   ```bash
-   cp .env.example .env
-   ```
-   
-   Update `.env` with your configuration:
-   ```env
-   PORT=6010
-   MONGODB_URI=mongodb://localhost:27017/customer_management
-   FRONTEND_URL=http://localhost:3000
-   NODE_ENV=development
-   BASE_URL=http://localhost:6010
-   ```
-
 4. **Start the server**
    ```bash
    npm start
@@ -138,4 +124,3 @@ A comprehensive full-stack customer management system with advanced CRUD operati
 ### Utility
 - `GET /api/userexport` - Export customers to CSV
 - `GET /health` - Health check endpoint
-git
